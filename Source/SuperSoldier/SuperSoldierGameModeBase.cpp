@@ -3,3 +3,8 @@
 
 #include "SuperSoldierGameModeBase.h"
 
+
+void ASuperSoldierGameModeBase::PawnKilled(APawn* PawnKilled) 
+{
+    
+}

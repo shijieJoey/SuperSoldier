@@ -13,5 +13,7 @@ UCLASS()
 class SUPERSOLDIER_API ASuperSoldierGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
+public:
+	virtual void PawnKilled(APawn* PawnKilled);
 };
